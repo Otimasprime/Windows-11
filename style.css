@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('Wallpaper_windows11.jpg');
+    background-size: cover;
+    overflow: hidden;
+    height: 98vh;
+}
+
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.icons{
+    color: white;
+    font-style: bold;
+}
+.startmenu{
+    position: absolute;
+   /* bottom: 50px; */
+   bottom: -800px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.center{
+    text-align: right;
+    position: relative;
+    bottom: 50%;
+    color: white;
+    align-items: center;
+    
+}
+.startmenu img{
+    border-radius: 8px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 105%;
+
+}
